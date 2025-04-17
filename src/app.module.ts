@@ -14,12 +14,11 @@ import { DataSource } from 'typeorm';
       database: 'task-managemeent',
       username: 'postgres',
       password: 'password',
-      // autoLoadEntities: true,
       entities: [Task],
       synchronize: true
     })
   ],
 })
 export class AppModule {
-  constructor(private dataSource: DataSource) {}
+  // constructor(private dataSource: DataSource) {}
 }
