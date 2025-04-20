@@ -8,7 +8,6 @@ import { TaskRepository } from "./tasks.repository";
 import { UpdateTaskStatusDto } from "./dto/update-task-status.dto";
 import { GetTasksFilterDto } from "./dto/get-tasks-filter-dto";
  
- 
 @Injectable()
 export class TasksService {
   constructor(
